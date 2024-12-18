@@ -1,6 +1,6 @@
 body{
   background-color:#2D2D39;
-  width: 10px;
+  width: 0px;
   
 }
   
@@ -39,7 +39,7 @@ body{
   .about{
     background-color: #343643;
     height: 405px;
-    width: 1350px;
+    width: 1400px;
     margin-top: -285px;
     
     
@@ -95,7 +95,7 @@ body{
     left: 1000px;
     
   }
-  ion-icon{
+  .navlinkedin{
     color:whitesmoke ;
     position: absolute;
     top: 40px;
@@ -103,7 +103,7 @@ body{
     text-decoration:none ;
     z-index: 1;
   }
-  ion-icon:hover{
+  .navlinkedin:hover{
     scale: 2;
     }
     
@@ -577,7 +577,7 @@ font-size: 12px;
     left: 38px;
 
   }
-  @media screen and (max-width:700px)  {
+  @media screen and (max-width:1000px)  {
      ul{
 
       display: none;
@@ -626,6 +626,7 @@ font-size: 12px;
     font-family: sans-serif;
     font-weight: lighter;
     object-fit: contain;
+    
   
     
   }
@@ -715,7 +716,8 @@ font-size: 12px;
     left: -320px;
     object-fit: contain;
     aspect-ratio: 3/2;
-    opacity: 0.7;
+    
+    
     
   }
   .x{
@@ -1045,15 +1047,34 @@ border-bottom: 1px solid #B1B1BD;
 
 
   }
-  ion-icon{
-    
+  .navlinkedin{
+    color:whitesmoke ;
+    position: absolute;
+    top: 40px;
+    left: 960px;
+    text-decoration:none ;
+    z-index: 1;
     display: none;
   }
-  body{
-    background-color:#2D2D39;
-    width: -160px;
-    
+  .secondarrow{
+    color:#FDBA18 ;
+  position: absolute;
+  top: 545px;
+  left: 1080px;
+  display: none;
+  
+  
+  
   }
+  .thirdarrow{
+    color:#FDBA18 ;
+  position: absolute;
+  top: 690px;
+  left: 1080px;
+  display: none;
+
+  }
+ 
   
   
  
