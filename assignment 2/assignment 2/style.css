@@ -1,0 +1,273 @@
+img{
+    height: 600px;
+    width: 1350px;
+    
+    color: black;
+    opacity: 1;
+    
+}
+
+.praroz{
+    position: absolute;
+    top: 35px;
+    left: 90px;
+    color: #D76015;
+}
+
+input{
+position: absolute;
+    top: 67px;
+    left: 1050px;
+    background-color:black;
+    color: black;
+    border-color: #FE7203;
+    
+    border-radius: 5px;
+    
+    
+    
+}
+.search{
+    background-color: #FE7203;
+    position: absolute;
+    left: 1200px;
+    
+    border-radius: 0px;
+}
+::placeholder{
+    color: white;
+}
+h1{
+    color: white;
+    position: absolute;
+    top: 160px;
+    left: 80px;
+    
+}
+p{
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 80px;
+    
+    display: inline;
+    
+}
+
+
+
+
+
+
+
+
+
+.development{
+    color: #D76015;
+    
+    
+    
+}
+
+
+    
+.button{
+    background-color: #FD7100;
+    position: relative;
+    top: -270px;
+    left: 70px;
+} 
+
+
+
+
+
+.form{
+    color: black;
+    background-color : #020609;
+    opacity: 0.9;
+    position: absolute;
+    top: 150px;
+    left: 1000px;
+    border:  160px solid;
+    border-width: 160px;
+    height: 50px;
+    border-radius: 8px;
+    
+    }
+
+
+
+.text{
+    background-color: #ffffff;
+    color: brown;
+    border: 150px;
+    position: absolute;
+    top: -145px;
+    left: -100px;
+    
+     border-radius: 8px ;
+     padding-right: 70px;
+     padding-left: 70px;
+     padding-top: 7px;
+     padding-bottom: 7px;
+     
+     
+     opacity: 1;
+     
+     
+}
+.email{
+    color: white;
+    position: absolute;
+    top: -80px;
+    left: -100px;
+    border-bottom-color: #241B1A;
+    
+    
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    
+    opacity: 1;
+    padding-right: 40px;
+    
+     
+
+}
+.password{
+    color: white;
+    position: absolute;
+    top: -30px;
+    left: -100px;
+    padding-right:40px ;
+    border-bottom-color: #241B1A;
+    border-left: black;
+    border-top: black;
+    border-right: 0px;
+    
+    
+    
+
+}
+.submit{
+color: black;
+background-color:#FD7000;
+position: absolute;
+    top:10px;
+    left: -97px;
+    
+    border-radius: 8px;
+    padding: 10px;
+     
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.account{
+    color: white;
+    position: absolute;
+    top:40px;
+    left: -70px;
+    white-space: nowrap;
+    
+    
+    
+    
+
+}
+.link{
+    color: orangered;
+    text-decoration: none;
+    position: absolute;
+    top:70px;
+    left: -35px;
+    white-space: nowrap;
+}
+.login{
+    position: absolute;
+    top: 80px;
+    left: -35px;
+    white-space: nowrap;
+}
+ul{
+    
+    color: white;
+    list-style: none;
+    display: flex;
+    position: absolute;
+    top: 55px;
+    left: 250px;
+    gap: 80px;
+    
+    
+}
+
+
+    
+
+    @media screen and (max-width:1200px) {
+        ul {
+            position: absolute;
+            top: 81px;
+            left: 250px;
+            flex-direction: row;
+            gap: 8px; 
+            padding: 0;
+        }
+        .button{
+            position: absolute;
+            top: 400px;
+        }
+        .form{
+            color: black;
+    background-color : #020609;
+    opacity: 0.9;
+    position: absolute;
+    top: 480px;
+    left: 60px;
+    border:  160px solid;
+    border-width: 160px;
+    height: 50px;
+    border-radius: 8px;
+    
+    
+            
+            
+            
+        }
+        img{
+            height: 850px;
+            width: 1350px;
+            
+            color: black;
+            opacity: 1;
+    
+        }
+        input{
+            position: absolute;
+                top: 180px;
+                left: 400px;
+                background-color:black;
+                color: black;
+                border-color: #FE7203;
+                
+                border-radius: 5px;}
+        .search{
+            background-color: #FE7203;
+            position: absolute;
+            left: 570px;
+            
+            border-radius: 0px;
+        }
+        ::placeholder{
+            color: white;
+        }
+        .praroz{
+            position: absolute;
+            top: 65px;
+            left: 90px;
+            color: #D76015;}
+        }
+    
