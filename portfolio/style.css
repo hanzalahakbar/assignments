@@ -1,0 +1,1344 @@
+  body{
+    background-color:#2D2D39;
+  
+    
+    
+    
+    
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+
+
+  }
+  
+    
+    .huge{
+      background-color: #2D2D39;
+      height: 280px;
+      width: 280px;
+      border-radius: 280px;
+      position: relative;
+      top: 100px;
+      left: 500px;
+      
+      opacity: 0.9;
+      }
+     
+      .nav{
+        background-color: #343643;
+        
+        
+        height: 405px;
+        width: calc(100% - 0px);
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        
+        flex-wrap: wrap;
+        margin-top: -290px;
+        margin-left: -4px;
+        padding-left: 9px;
+      
+        
+        
+        
+      }
+      .hanzala{
+        color: #FBFEFC;
+
+        position: absolute;
+        top:1px;
+        left: 35px;
+        
+        
+      
+      }
+       .home{
+        color: #A6A9B0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        
+        gap: 57px;
+        list-style: none;
+        margin-top: -250px;
+        
+        
+        
+        
+        text-decoration: none;
+        z-index: 1;
+      
+        
+        
+        
+        
+      }
+      ul:hover{
+        scale: 1.1;
+      }
+      li:active{
+        color: white;
+        
+      }
+      li{
+        position: relative;
+        top:270px;
+        left: -750px;
+        
+      }
+.navpart2{
+    
+        background-color: #343643;
+        overflow-x: hidden;
+        
+        height:305px ;
+        width: calc(100% - 0px);
+        display: flex;
+        align-items: flex-start;
+        align-content: flex-start;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: -290px;
+        margin-left:-4px;
+        padding-left: 9px;
+        
+    
+}
+     
+      
+      .material-symbols-outlined{
+        color: #676973;
+        position: absolute;
+        left: 1320px;
+        top: 5px;
+      
+        
+      }
+      .navlinkedin{
+        color:whitesmoke ;
+        position: absolute;
+        left: 1280px;
+        top: 9px;
+        
+        text-decoration:none ;
+        z-index: 1;
+      }
+      .navlinkedin:hover{
+        scale: 2;
+        }
+        .about{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; 
+            flex-wrap: wrap;
+            margin-left: -530px;
+            margin-top: -50px;
+            
+        }
+        .im{
+            color: #9999A7;
+            
+            font-family: sans-serif;
+            font-weight: lighter;
+        position: relative;
+        top: 50px;
+        
+          
+            
+          }
+          
+          .hanzalah{
+            color:#FCFEFA;
+            
+            font-size: 3.8vw;
+            z-index: 1;
+           
+          }
+          .skills{
+            
+            font-size: 0.7vw;
+            color: #B1B1BD;
+            
+          }
+          hr{
+            border: 1px solid #FDBA18;
+            width: 120px;
+            position: absolute;
+            left: 253px;
+            top: 230px;
+            
+          }
+          img{
+            height: 300px; 
+  opacity: 1;
+   width: 300px;
+ 
+  
+   
+   position: absolute;
+   
+  top: 105px;
+  left: 470px;
+  z-index: 2;
+  object-fit: contain;
+  
+          }
+          .services{
+            line-height: 1.5vw;
+            margin-top: -300px;
+            margin-left: 750px;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+
+          }
+          .service{
+    
+            color: white;
+            opacity: 0.6;
+            margin-bottom: -20px;
+            
+          }
+          .build{
+            
+            color:white;
+            opacity: 0.75;
+        }
+        .show{
+            text-decoration: none;
+            color: #FDBA18;
+            
+            opacity: 0.7;
+            
+            
+          }
+          .arrow{
+            color:#FDBA18;
+            margin-bottom: -3px;
+            
+        
+            
+        
+          }
+          .logo{
+            margin-left: 750px;
+          }
+          .fb{
+            color:#EFAF20;
+            
+            
+            object-fit: contain;
+            aspect-ratio: 3/2;
+            opacity: 0.7;
+            
+          }
+          .x{
+            color:#EFAF20;
+            
+          
+            object-fit: contain;
+            aspect-ratio: 3/2;
+            opacity: 0.7;
+        
+          }
+          .insta{
+            color:#EFAF20;
+            
+            
+            object-fit: contain;
+            aspect-ratio: 3/2;
+            opacity: 0.7;
+        
+          }
+          .second{
+    
+    
+            height: calc(100% - 100px);
+            width: 550px;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            
+            flex-wrap: wrap;
+            padding-top: 100px;
+            padding-left: 360px;
+        
+          }
+          .icon{
+            background-color: #3E404F;
+            height: 90px;
+            width: 600px;
+            display: flex;
+            align-content: center;
+            flex-wrap: wrap;
+            z-index: 3;
+            justify-content: center;
+            gap: 1vw;
+            
+            
+        
+          }
+          .meta{
+            
+            
+            height: 90px;
+            width: 150px;
+            aspect-ratio: 3/2;
+            object-fit: contain;
+            margin-top: 280px;
+            margin-left: -40px;
+            
+            
+            
+            
+            
+            
+        
+          }
+          .m{
+            
+            
+            align-content: center;
+            justify-content: space-evenly;
+        flex-wrap: wrap;
+            height: 46px;
+            width: 118px;
+            
+            
+            background-color:#343641;
+            aspect-ratio: 3/2;
+             object-fit: contain;
+        
+          }
+          .google{
+          margin-top: 283px;
+          margin-left: 98px;
+        height: 90px;
+         width: 150px;
+         aspect-ratio: 3/2;
+         object-fit: contain;
+        
+          }
+          .g{
+            display: flex;
+            align-content: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            height: 48px;
+            width: 120px;
+            
+            background-color:#343641;
+            aspect-ratio: 3/2;
+             object-fit: contain;
+        
+          }
+          .linkedin{
+            margin-top: 302px;
+            margin-left: 250px;
+            height: 50px;
+             width: 110px;
+             text-align: center;
+             aspect-ratio: 3/2;
+             object-fit: contain;
+            
+        
+          }
+          .ld{
+            display: flex;
+            align-content: center;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            height: 48px;
+            width: 120px;
+            
+            background-color:#343641;
+            aspect-ratio: 3/2;
+             object-fit: contain;
+            
+        
+          }
+          .projects{
+            background-color:#2D2D39;
+            display: flex;
+            flex-direction: column;
+            justify-content: right;
+            align-items: end;
+            height: calc(100% - 0px);
+            
+            
+            
+            
+            
+            
+  
+              
+              
+              
+              
+            }
+          
+           .digital{
+            display: flex;
+            flex-direction: column;
+         justify-content: center;
+            align-items:center; 
+            
+            
+           
+           height: 100px;
+           width: 390px;
+           
+        border-bottom: 1px solid #CCCCD6;
+         
+          }
+          .marketing{
+            height: 70px;
+            width: 70px;
+            object-fit: contain;
+            
+             aspect-ratio: 3/2;  
+            margin-top: 400px;
+            margin-left: 485px;
+            
+            
+          }
+          .web{
+            height: 100px;
+           width: 390px;
+           display: flex;
+           flex-direction: column;
+            align-items:center;
+           justify-content: end; 
+           
+
+          
+          
+         border-bottom: 1px solid #B1B1BD; 
+        
+          }
+           .dev{
+            height: 100px;
+            width: 100px;
+            
+             object-fit: contain; 
+            
+            aspect-ratio: 3/2;
+            margin-top: 495px;
+            margin-left: 480px;
+            
+        
+          }
+          
+          h4{
+            color: #FBFEFC;
+            
+             margin-top:30px ; 
+            margin-left: 15px;
+            
+        
+          }
+          .proj{
+            color: #CCCCD6;
+            
+             margin-top: -30px; 
+            margin-left: 85px;
+            
+        font-size: 12px;
+        
+          }
+          .secondarrow{
+            color:#FDBA18 ;
+            margin-top: -140px;
+         
+          
+          
+          
+          }
+          .thirdarrow{
+            color:#FDBA18 ;
+            margin-top: 80px;
+          
+        
+          }
+          .heading{
+            color: #FBFEFC;
+            margin-left: 30px;
+            margin-top: 40px;
+            
+        
+            
+            
+          }
+          .secondproj{
+            
+            font-size: 12px;
+             color: #CCCCD6;;
+             
+              margin-left: 105px; 
+             margin-top: -40px;
+             
+        
+          }  
+          .achievement{
+            display: flex;
+            flex-direction: column;
+            
+          flex-wrap: wrap;
+          margin-top: -160px;
+          margin-left: 150px;
+          line-height: 20px;
+          
+          object-fit: contain;
+          
+
+          }
+          .past{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+          align-items: flex-end;
+          justify-content: flex-start;
+          margin-left: -20px;
+          width: 450px;
+          
+          
+        
+          
+          
+          
+          }
+          .needs{
+            color: #EFF0F2;
+        word-spacing: 5px;
+            font-weight: 200px;
+        }
+        .requirement{
+        color: #EFF0F2;
+         
+        word-spacing: 5px;
+            font-weight: 200px;
+        }
+        p{
+         color: #62636C;
+         width: 240px;
+        }
+        .number{
+            color: #F6B21F;
+        font-size: 24px;
+          }
+        .completed{
+        font-size: 12px;
+        margin-left: -48px;
+        
+          }
+        .number2{
+            color: #F6B21F;
+         font-size: 24px;
+         margin-left: -80px;
+        
+          }
+        .community{
+         font-size: 12px;
+         margin-left: -48px;
+          }
+        .number3{
+            color: #F6B21F;
+        font-size: 24px;
+          }
+         .contract{
+        font-size: 12px;
+        margin-left: -36px;
+
+        
+          }
+        .number4{
+            color: #F6B21F;
+        font-size: 24px;
+        margin-left: -80px;
+        
+          }
+        .experience{
+        font-size: 12px;
+        margin-left: -36px;
+           }
+           .bottom{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+            justify-content: center;
+            background-color:#3E404F;
+            margin-top: 350px;
+            padding-top: 50px;
+            width: calc(108% - 100px);
+            text-align: justify;
+        
+            
+          }
+          .webdevelopment{
+            background-color: #3C3C4A;
+            height: 320px;
+            width: 280px;
+            position: relative;
+            top: -340px;
+            left: -235px;
+        
+          }
+          .digitalmarketing{
+            background-color: #3C3C4A;
+            height: 320px;
+            width: 280px;
+            position: relative;
+            top: -340px;
+            left: 190px;
+        
+        
+          }
+          .symbol{
+            background-color: #F6B21F;
+            color: #2D2D39;
+            border-radius: 200px;
+            position: absolute;
+            top: 20px;
+            left: 40px;
+            height: 30px;
+            width: 30px;
+            object-fit: contain;
+          }
+          h5{
+            color: #CCCCD6;
+          position: relative;
+          top: 30px;
+          left: 30px;
+          font-size: 22px;
+          }
+          .seo{
+            position: relative;
+            top: 0px;
+            left:30px ;
+          }
+          .bottomarrow{
+            color:#F6B21F ;
+            position: relative;
+            top: 48px;
+            left: 120px;
+          }
+          .showmore{
+            color:#F6B21F ;
+            position: relative;
+            top: 10px;
+            left: 38px;
+        
+          } 
+           .footer{ 
+            display: flex;
+            flex-direction: column;
+            margin-left: 1000px;
+            margin-top: 40px;
+            width: 180px;
+            color: #fff;
+            
+          
+            
+           } 
+          .footernav{
+            margin-top: -280px;
+            margin-left: -180px;
+            
+            gap: 34px;
+            width: 140px;
+           }  
+           .footer h3{
+            margin-left: -890px;
+
+          }
+          .column{
+            display: flex;
+            flex-direction: column;
+            margin-left: 1000px;
+            margin-top: -20px;
+            width: 180px;
+            color: #fff;
+            
+          }
+          .column h3{
+            margin-left: -500px;
+            
+            
+
+
+          }
+          .column li{
+            padding-left:210px ;
+            white-space: nowrap;
+           
+          }
+          .column ul{
+            gap: 34px;
+            margin-top: -280px;
+            
+            
+          }
+          .information{
+            display: flex;
+            flex-direction: column;
+            margin-left: 1100px;
+            margin-top: -1px;
+            width: 180px;
+            color: #fff;
+            
+          }
+                    .information h3{
+            margin-left: -280px;
+            
+            
+
+
+          }
+          .information li{
+            padding-left:430px ;
+            white-space: nowrap;
+           
+          }
+          .information ul{
+            gap: 34px;
+            margin-top: -280px;
+            
+            
+          }
+          .contact{
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            margin-left: 1100px;
+            margin-top: -1px;
+            width: 180px;
+            
+          }
+          .texla{
+            margin-left: 25px;
+            margin-top: -15px;
+            color:#EFAF20;
+
+          }
+          .facebook{
+            color:#EFAF20;
+            
+
+          }
+          .instagram{
+            margin-left:50px ;
+            margin-top: -16px;
+             color:#EFAF20; 
+           } 
+         
+           @media (max-width: 1024px) {
+.main{
+  width: 1305px;
+}
+.material-symbols-outlined{
+  color: #676973;
+  position: absolute;
+  left: 1220px;
+  top: 5px;
+
+  
+}
+.navlinkedin{
+  color:whitesmoke ;
+  position: absolute;
+  left: 1180px;
+  top: 9px;
+  
+  text-decoration:none ;
+  z-index: 1;
+}
+.navlinkedin:hover{
+  scale: 2;
+  }
+  hr{
+    border: 1px solid #FDBA18;
+    width: 120px;
+    position: absolute;
+    left: 288px;
+    top: 210px;
+    
+  }
+  .skills{
+            
+    font-size: 1.1vw;
+    color: #B1B1BD;
+    
+  }
+  .marketing{
+    height: 70px;
+    width: 70px;
+    object-fit: contain;
+    
+     aspect-ratio: 3/2;  
+    margin-top: 360px;
+    margin-left: 465px;
+    
+    
+  }
+  .secondarrow{
+    color:#FDBA18 ;
+    margin-top: -140px;
+    margin-right: 30px;
+    
+ 
+  
+  
+  
+  }
+  .thirdarrow{
+    color:#FDBA18 ;
+    margin-top: 80px;
+    margin-right: 30px;
+  
+  }
+  .dev{
+    height: 100px;
+    width: 100px;
+    
+     object-fit: contain; 
+    
+    aspect-ratio: 3/2;
+    margin-top: 455px;
+    margin-left: 472px;
+    
+
+  }
+  .meta{
+            
+            
+    height: 90px;
+    width: 150px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    margin-top: 250px;
+    margin-left: -40px;
+    
+    
+    
+    
+    
+    
+
+  }
+.google{
+  margin-top: 253px;
+  margin-left: 98px;
+height: 90px;
+ width: 150px;
+ aspect-ratio: 3/2;
+ object-fit: contain;
+
+  }
+.linkedin{
+    margin-top: 272px;
+    margin-left: 250px;
+    height: 50px;
+     width: 110px;
+     text-align: center;
+     aspect-ratio: 3/2;
+     object-fit: contain;
+    
+
+  }
+  .footer{
+    margin-top: 30px;
+  }
+ 
+  .column{
+    margin-top: 5px;
+  }
+  .information{
+    margin-top: 5px;
+  }
+  .footernav{
+    margin-top: -280px; 
+     margin-left : -180px ; 
+    
+     gap: 34px; 
+     width: 140px;
+     list-style: none;
+   }  
+.column li{
+    padding-left:210px ;
+    white-space: nowrap;
+    
+    list-style: none;
+   
+  }
+.information li{
+    padding-left:-430px ;
+    white-space: nowrap;
+    list-style: none;
+    
+   
+  }
+    
+  }
+  
+           
+        
+        
+        
+        
+                   @media (max-width: 768px) {
+                    .main{
+                      width: 1315px;
+                    }
+                    
+                    .material-symbols-outlined{
+                      color: #676973;
+                      position: absolute;
+                      left: 1220px;
+                      top: 5px;
+                    
+                      
+                    }
+                    .navlinkedin{
+                      color:whitesmoke ;
+                      position: absolute;
+                      left: 1180px;
+                      top: 9px;
+                      
+                      text-decoration:none ;
+                      z-index: 1;
+                    }
+                    .navlinkedin:hover{
+                      scale: 2;}
+                    
+                    
+                    
+                    
+          
+                      hr{
+                        border: 1px solid #FDBA18;
+                        width: 120px;
+                        position: absolute;
+                        left: 308px;
+                        top: 200px;
+                        
+                      }
+                      .skills{
+                                
+                        font-size: 1.1vw;
+                        color: #B1B1BD;
+                        
+                      }
+                      .marketing{
+                        height: 70px;
+                        width: 70px;
+                        object-fit: contain;
+                        
+                         aspect-ratio: 3/2;  
+                        margin-top: 345px;
+                        margin-left: 495px;
+                        
+                        
+                      }
+                      .secondarrow{
+                        color:#FDBA18 ;
+                        margin-top: -140px;
+                        margin-right: 30px;
+                        
+                     
+                      
+                      
+                      
+                      }
+                      .thirdarrow{
+                        color:#FDBA18 ;
+                        margin-top: 80px;
+                        margin-right: 30px;
+                      
+                      }
+                      .dev{
+                        height: 100px;
+                        width: 100px;
+                        
+                         object-fit: contain; 
+                        
+                        aspect-ratio: 3/2;
+                        margin-top: 440px;
+                        margin-left: 492px;
+                        
+                    
+                      }
+                      .meta{
+                                
+                                
+                        height: 90px;
+                        width: 150px;
+                        aspect-ratio: 3/2;
+                        object-fit: contain;
+                        margin-top: 230px;
+                        margin-left: -40px;
+                        
+                        
+                        
+                        
+                        
+                        
+                    
+                      }
+                    .google{
+                      margin-top: 233px;
+                      margin-left: 98px;
+                    height: 90px;
+                     width: 150px;
+                     aspect-ratio: 3/2;
+                     object-fit: contain;
+                    
+                      }
+                    .linkedin{
+                        margin-top: 252px;
+                        margin-left: 250px;
+                        height: 50px;
+                         width: 110px;
+                         text-align: center;
+                         aspect-ratio: 3/2;
+                         object-fit: contain;
+                        
+                    
+                      }
+                      .footer{
+                        margin-top: -20px;
+                      }
+                     
+                      .column{
+                        margin-top: 5px;
+                      }
+                      .information{
+                        margin-top: 5px;
+                      }
+                      .footernav{
+                        margin-top: -280px; 
+                         margin-left : -180px ; 
+                        
+                         gap: 34px; 
+                         width: 140px;
+                         list-style: none;
+                       }  
+      .column li{
+                        padding-left:210px ;
+                        white-space: nowrap;
+                        
+                        list-style: none;
+                       
+                      }
+       .information li{
+                        padding-left:-430px ;
+                        white-space: nowrap;
+                        list-style: none;
+                        
+                       
+                      }
+                        
+                      }
+                      @media (max-width: 480px) {
+                         .main{
+                          width: 1335px;
+                        }
+                        .hanzala{
+                          color: #FBFEFC;
+                  
+                          position: absolute;
+                          top:5px;
+                          left: 35px;
+                          
+                          
+                        
+                        }
+                        .happy{
+                          position: absolute;
+                          top:3px;
+                          left: 5px;
+
+                        }
+                        .material-symbols-outlined{
+                          color: #676973;
+                          position: absolute;
+                          left: 1220px;
+                          top: 25px;
+                        
+                          
+                        }
+                        .navlinkedin{
+                          display: none;
+                        }
+                        .nav{
+                          background-color: #272932;
+                          margin-top: -350px;
+                        }
+                        .home{
+                          display: none;
+                        }
+                          hr{
+                            border: 1px solid #FDBA18;
+                            width: 120px;
+                            position: absolute;
+                            left: 270px;
+                            top: 267px;
+                            
+                          }
+                          .skills{
+                                    
+                            font-size: 1.1vw;
+                            color: #B1B1BD;
+                            
+                          }
+                          .marketing{
+                            height: 70px;
+                            width: 70px;
+                            object-fit: contain;
+                            
+                             aspect-ratio: 3/2;  
+                            margin-top: 430px;
+                            margin-left: 485px;
+                            
+                            
+                          }
+                          .secondarrow{
+                            color:#FDBA18 ;
+                            margin-top: -140px;
+                            margin-right: 40px;
+                            
+                         
+                          
+                          
+                          
+                          }
+                          .thirdarrow{
+                            color:#FDBA18 ;
+                            margin-top: 80px;
+                            margin-right: 40px;
+                          
+                          }
+                          .dev{
+                            height: 100px;
+                            width: 100px;
+                            
+                             object-fit: contain; 
+                            
+                            aspect-ratio: 3/2;
+                            margin-top: 525px;
+                            margin-left: 482px;
+                            
+                        
+                          }
+                          .meta{
+                                    
+                                    
+                            height: 90px;
+                            width: 150px;
+                            aspect-ratio: 3/2;
+                            object-fit: contain;
+                            margin-top: 320px;
+                            margin-left: -40px;
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                          }
+                        .google{
+                          margin-top: 323px;
+                          margin-left: 98px;
+                        height: 90px;
+                         width: 150px;
+                         aspect-ratio: 3/2;
+                         object-fit: contain;
+                        
+                          }
+                        .linkedin{
+                            margin-top: 342px;
+                            margin-left: 250px;
+                            height: 50px;
+                             width: 110px;
+                             text-align: center;
+                             aspect-ratio: 3/2;
+                             object-fit: contain;
+                            
+                        
+                          }
+                          .navpart2{
+    
+                            background-color: #343643;
+                            overflow-x: hidden;
+                            
+                            height:405px ;
+                            width: calc(100% - 0px);
+                            display: flex;
+                            align-items: flex-start;
+                            align-content: flex-start;
+                            gap: 20px;
+                            justify-content: center;
+                            flex-wrap: wrap;
+                            margin-top: -290px;
+                            margin-left:-4px;
+                            padding-left: 9px;
+                            
+                        
+                    }
+                    .about{
+                      display: flex;
+                      flex-direction: column;
+                      justify-content: flex-start; 
+                      flex-wrap: wrap;
+                      margin-left: -530px;
+                      margin-top: 50px;
+                      
+                      
+                  }
+                  .im{
+                    color: #9999A7;
+                    
+                    font-family: sans-serif;
+                    font-weight: lighter;
+                position: relative;
+                top: 40px;
+                
+                  
+                    
+                  }
+                  
+                  .hanzalah{
+                    color:#FCFEFA;
+                    
+                    font-size: 46px;
+                    z-index: 1;
+                   
+                  }
+                  .skills{
+                    
+                    font-size: 2vw;
+                    color: #B1B1BD;
+                    position: relative;
+                    top: -20px;
+                    
+                  }
+                   .service{
+    
+                    color: white;
+                    opacity: 0.6;
+                    margin-bottom: 10px;
+                    
+                  }
+                  .build{
+                    
+                    color:white;
+                    opacity: 0.75;
+                line-height: 20px;
+                } 
+                .footernav{
+                  margin-top: -280px; 
+                   margin-left : -180px ; 
+                  
+                   gap: 34px; 
+                   width: 140px;
+                   list-style: none;
+                 }  
+                 .footer h3{
+                  margin-left: -890px;
+                  margin-top: -30px;
+      
+                }
+                .column{
+                  display: flex;
+                  flex-direction: column;
+                  margin-left: 1000px;
+                  margin-top: -50px;
+                  width: 180px;
+                  color: #fff;
+                  
+                }
+                .column h3{
+                  margin-left: -500px;
+                  
+                  
+      
+      
+                }
+                .column li{
+                  padding-left:210px ;
+                  white-space: nowrap;
+                  
+                  list-style: none;
+                 
+                }
+                .column ul{
+                  gap: 34px;
+                  margin-top: -280px;
+                  
+                  
+                }
+                .information{
+                  display: flex;
+                  flex-direction: column;
+                  margin-left: 1100px;
+                  margin-top: 0px;
+                  width: 180px;
+                  color: #fff;
+                  
+                }
+                          .information h3{
+                  margin-left: -280px;
+                  
+                  
+                  
+      
+      
+                }
+                .information li{
+                  padding-left:-430px ;
+                  white-space: nowrap;
+                  list-style: none;
+                 
+                }
+                .information ul{
+                  gap: 34px;
+                  margin-top: -280px;
+                  
+                  
+                }
+                .contact{
+                  color: #fff;
+                  display: flex;
+                  flex-direction: column;
+                  margin-left: 1080px;
+                  margin-top: 0px;
+                  width: 180px;
+                  
+                }
+                .footer{ 
+                  display: flex;
+                  flex-direction: column;
+                   margin-left: 1000px;
+                  margin-top: 40px;
+                  width: 180px;  
+                  color: #fff;
+                  
+                
+                  
+                 } 
+                                
+                                
+                          }
+                          
+                                   
+                      
+           
