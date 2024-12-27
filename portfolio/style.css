@@ -72,6 +72,7 @@
         
         
         
+        
         text-decoration: none;
         z-index: 1;
       
@@ -80,7 +81,7 @@
         
         
       }
-      ul:hover{
+      .home:hover{
         scale: 1.1;
       }
       li:active{
@@ -117,7 +118,7 @@
       .material-symbols-outlined{
         color: #676973;
         position: absolute;
-        left: 1320px;
+        left: 1220px;
         top: 5px;
       
         
@@ -125,7 +126,7 @@
       .navlinkedin{
         color:whitesmoke ;
         position: absolute;
-        left: 1280px;
+        left: 1180px;
         top: 9px;
         
         text-decoration:none ;
@@ -645,6 +646,7 @@
             margin-top: 40px;
             width: 180px;
             color: #fff;
+            list-style: none;
             
           
             
@@ -655,16 +657,20 @@
             
             gap: 34px;
             width: 140px;
+            list-style: none;
            }  
            .footer h3{
             margin-left: -890px;
 
           }
+          .footernav li{
+            list-style: none;
+          }
           .column{
             display: flex;
             flex-direction: column;
             margin-left: 1000px;
-            margin-top: -20px;
+            margin-top: 6px;
             width: 180px;
             color: #fff;
             
@@ -679,6 +685,7 @@
           .column li{
             padding-left:210px ;
             white-space: nowrap;
+            list-style: none;
            
           }
           .column ul{
@@ -706,6 +713,7 @@
           .information li{
             padding-left:430px ;
             white-space: nowrap;
+            list-style: none;
            
           }
           .information ul{
@@ -897,7 +905,11 @@ height: 90px;
                    @media (max-width: 768px) {
                     .main{
                       width: 1315px;
+                      
                     }
+              
+                    
+                     
                     
                     .material-symbols-outlined{
                       color: #676973;
@@ -1048,9 +1060,14 @@ height: 90px;
                         
                       }
                       @media (max-width: 480px) {
+                        
                          .main{
-                          width: 1335px;
-                        }
+                          width: 1355px;
+                          
+                          
+                        } 
+                        
+                         
                         .hanzala{
                           color: #FBFEFC;
                   
@@ -1075,12 +1092,24 @@ height: 90px;
                         
                           
                         }
+                        .about{
+                          display: flex;
+                          flex-direction: column;
+                          justify-content: flex-start; 
+                          flex-wrap: wrap;
+                          margin-left: -230px;
+                          margin-top: 250px;
+                          padding-left: -30px;
+                          
+                          
+                      }
                         .navlinkedin{
                           display: none;
                         }
                         .nav{
                           background-color: #272932;
                           margin-top: -350px;
+                          
                         }
                         .home{
                           display: none;
@@ -1335,10 +1364,6 @@ height: 90px;
                 
                   
                  } 
-                                
-                                
-                          }
-                          
-                                   
-                      
-           
+                 @media (max-width: 2660px) {
+                        
+                 
