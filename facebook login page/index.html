@@ -13,6 +13,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            min-height: 100vh;
         }
 
         .container {
@@ -22,11 +23,13 @@
             width: 100%;
             max-width: 1200px;
             margin-top: 50px;
+            flex-wrap: wrap;
         }
 
         .logo {
-            flex: 1;
-            text-align: left;
+            flex: 1 1 100%;
+            text-align: center;
+            margin-bottom: 20px;
         }
 
         .logo h1 {
@@ -36,12 +39,13 @@
         }
 
         .form-container {
-            flex: 1;
+            flex: 1 1 100%;
             max-width: 400px;
             background: #fff;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            margin: 0 10px;
         }
 
         .form-container form {
@@ -74,8 +78,9 @@
         .form-container .signup-btn {
             background-color: #42b72a;
             margin-top: 10px;
-            width: 160px;
-            margin-left: 120px;
+            font-size: 14px;
+            padding: 8px;
+            text-align: center;
         }
 
         .form-container a {
@@ -86,20 +91,24 @@
             margin-bottom: 10px;
         }
 
-         .create-page {
-            margin-top: 20px;
+        .create-page {
+            margin-top: 300px;
             font-size: 12px;
             color: #606770;
-            text-align: center;
-            margin-left: 750px;
+            text-align: right;
+            max-width: 400px;
+            width: 100%;
+            margin-left: -470px;
         }
 
         footer {
-            margin-top: 160px;
+            margin-top: auto;
             text-align: center;
             font-size: 12px;
-            color: white;
-            background-color: white;
+            color: #606770;
+            background-color: #fff;
+            padding: 10px 0;
+            width: 100%;
         }
 
         footer .languages {
@@ -122,6 +131,27 @@
             margin: 10px 0;
             border-top: 1px solid #ddd;
         }
+
+        @media (min-width: 768px) {
+            .container {
+                flex-wrap: nowrap;
+            }
+
+            .logo {
+                flex: 1;
+                text-align: left;
+                margin-bottom: 0;
+            }
+
+            .form-container {
+                flex: 1;
+                margin: 0;
+            }
+
+            .create-page {
+                text-align: right;
+            }
+        }
     </style>
 </head>
 <body>
@@ -136,12 +166,12 @@
                 <button type="submit" class="login-btn">Log In</button>
                 <a href="#">Forgotten password?</a>
                 <div class="line"></div>
-                <button type="button" class="signup-btn">create new account</button>
+                <button type="button" class="signup-btn">Create New Account</button>
             </form>
             
-        </div>
     </div>
-    <p class="create-page">Create a Page for a celebrity, brand or business.</p>
+    <div class="create-page">Create a Page for a celebrity, brand or business.</div>
+        </div>
     <footer>
         <div class="languages">
             English (UK)
@@ -195,3 +225,5 @@
     </footer>
 </body>
 </html>
+
+
