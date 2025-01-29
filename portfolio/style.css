@@ -430,7 +430,7 @@ body{
               
           
               .impact{
-                min-height: 42vh;
+                min-height: 24vh;
                  width: 150%;
                  
                
@@ -664,7 +664,7 @@ body{
                                            width: 235%;
                                           }
                                           .container{
-                                            width: 258%;
+                                            width: 257%;
                                           }
                                           .second{
                                             margin-top: -13rem;
@@ -720,3 +720,62 @@ body{
                                                       
                                                                                                                          
                                          }
+ @media (min-width: 1900px){
+  .second{
+    min-height: 12vh;
+    }
+    .impact{
+     
+      min-height: 25vh;
+      }
+      .huge{
+        margin-left: -9.5rem;
+        }  
+        .meta,.google,.linkedin{
+           
+          max-width: 10vw; 
+          
+          
+          margin-left: -84px;
+         }
+         .dev{
+          width: 10vw;
+         }
+         .marketing{
+          width: 9vw;
+         }
+         .digital{
+          width: 16%;
+         }
+         .web{
+          width: 16%;
+         }
+         .bottom{
+                
+          display: flex;
+          gap: 3vw;
+          padding: 5vw 4vw;
+          flex-wrap: wrap;
+       }
+         
+      
+         
+
+  }
+  
+  @media (max-width: 376px){
+    .nav{
+      width: 265%;
+      flex-wrap: wrap;
+    }
+    
+   
+      .impact{
+       width: 265%;
+      }
+      .second{
+        margin-top: -2rem;
+       
+      }
+      
+    }
