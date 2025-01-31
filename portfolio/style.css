@@ -86,29 +86,30 @@ body{
   }
   .skills{
     color: #A3A5B2;
-   width:  15rem;
+   width:  28rem;
+   font-size: 22px;
    
    
   
   }
     .im{
      color: #A3A5B2;
-     font-size: 32px;
+     font-size: 80px;
           
     }
      hr{
-     width: 5rem;
-          border: 1px solid #DEA720;
+     width: 9rem;
+          border: 2px solid #DEA720;
           
     }
       
 .hanzalah{
   color: white;
-  font-size: 32px;
+  font-size: 80px;
       
  }
  .about{
-  padding: 5rem 15rem;
+  padding: 5rem 1rem;
   margin-top: -22rem;
   display: flex;
   flex-direction: column;
@@ -128,12 +129,13 @@ body{
   display: block;
   }
   img{
-    margin-top: -22rem;
+    margin-top: -26rem;
     display: block;
     max-inline-size: 100%;
     padding-left: 5rem !important;
     z-index: 1;
     object-fit: contain;
+    margin-left: 15rem;
     
     
   }
@@ -148,14 +150,15 @@ body{
     
     margin-left: 26.5rem;
     margin-top: 8rem;
+
   
     
     
   }
    .services{
     
-  margin-top: -20rem;
-  margin-left: 30rem;
+  margin-top: -26rem;
+  margin-left: 50rem;
   
     
     
@@ -164,19 +167,21 @@ body{
     
   } 
   .logo{
-    margin-left: 30rem;
+    margin-left: 50rem;
     color: #DEA720;
     display: flex;
   }
   .service{
     color: white;
           opacity: 0.6;
+          font-size: 32px;
             
           }
      .build{
      color:white;
           opacity: 0.75;
-          width: 18rem;
+          font-size: 2rem;
+          width: 24rem;
           
           }
     .show{
@@ -198,7 +203,7 @@ body{
            
            
            
-           margin: -8.5rem 5rem;
+           margin: -5.3rem 5rem;
            z-index: 5;
            display: block;
            max-inline-size: 1225px;
@@ -422,7 +427,7 @@ body{
           
           
               img{
-               
+              
                 z-index: 1;
                 object-fit: contain;
                max-width: 100%;
@@ -729,17 +734,66 @@ body{
                                                        
                                                                                                                          
                                          } */
- @media (min-width: 1900px){
+ @media (min-width: 1468px){
+  .webdevelopment{
+    min-height: 20vh;
+      }
+    .bottom .digitalmarketing{
+     min-height: 20vh;
+     }
+      .container{
+       min-height: 20vh;
+      }
+  
+  .achievement{
+ width: 22rem;
+  }
+.achievement .experties{
+  font-size: 28px;
+   width: 450px;
+   
+    }
   .second{
     min-height: 12vh;
     }
     .impact{
      
-      min-height: 25vh;
+      min-height: 35vh;
+     
+      
+      
       }
       .huge{
-        margin-left: -9.5rem;
-        }  
+        position: relative;
+        left: -38rem;
+       
+      }
+      .nav{
+       font-size: 28px;
+        padding-top: 2rem;
+      }
+     
+      hr{
+        width: 9rem;
+        border: 3px solid #DEA720;
+    }
+           
+      .im{
+        font-size: 95px;
+      }
+      .hanzalah{
+        font-size: 95px;
+        z-index: 1;
+      }
+      .skills{
+        width: 28rem;
+        font-size: 22px;
+      }
+      .about{
+        margin-left: -13rem;
+      }
+      
+      
         .meta,.google,.linkedin{
            
           max-width: 10vw; 
@@ -766,6 +820,37 @@ body{
           padding: 5vw 4vw;
           flex-wrap: wrap;
        }
+       img{
+        position: relative;
+        margin-left: 20rem;
+        margin-top: -29rem;
+        
+       }
+       .services{
+        margin-left: 55rem;
+        margin-top: -28rem;
+       }
+       .logo{
+        
+        margin-left: 55rem !important;
+        width: 10%;
+        
+       }
+       .service{
+        font-size: 45px;
+       }
+       .build{
+        font-size: 36px;
+        white-space: nowrap;
+       }
+       .show{
+        font-size: 28px;
+        white-space: nowrap;
+        
+      }
+     .second{
+      margin-top: -12rem;
+     }
          
       
          
@@ -956,3 +1041,4 @@ body{
                       
                   
       }
+     
