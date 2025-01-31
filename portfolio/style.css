@@ -1041,4 +1041,80 @@ body{
                       
                   
       }
+      @media (width > 1920px){
+        .about{
+          margin-left: 1rem;
+        }
+        html,body{
+          overflow-x: hidden;
+        }
+        .huge{
+         position: relative;
+         left: 40rem;
+         
+          
+        }
+        .home{
+          gap: 12rem;
+        }
+        img{
+          margin-left: 33rem;
+        }
+        .im{
+          font-size: 122px;
+        }
+        .hanzalah{
+          font-size: 122px;
+        }
+        .skills{
+          width: 58rem;
+          
+        }
+        .services{
+          margin-left: 70rem;
+        }
+        
+        .arrow{
+          margin-left: 8rem;
+          margin-top: -1.8rem;
+        }
+        .service{
+          font-size: 58px;
+        }
+        .build{
+          font-size: 58px;
+          width: 82rem;
+        }
+        .nav span{
+        
+          
+          padding-left: 18rem;
+          
+         }
+         .nav a{
+      
+          
+          padding-left: 2.2rem;
+          
+        }
+      }
+      @media (width> 2200px){
+        .build{
+          font-size: 80px;
+          width: 200px;
+
+        }
+        img{
+          margin-left: 33rem;
+        }
+        .second{
+          margin-left: 24rem;
+          width: 250%;
+        }
+        
+        
+      
+        
+
+      }
      
