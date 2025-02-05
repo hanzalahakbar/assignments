@@ -12,7 +12,6 @@
   
 }
 
-
 body{
   background-color: #272932;
   min-height: 100vh;
@@ -24,10 +23,11 @@ body{
   background-color: #353543;
   display: flex;
   
-    
+    min-width: 100%;
   
  min-height: 50%;
- width: 100%;
+ 
+ 
  
  
  
@@ -68,6 +68,7 @@ body{
     text-decoration: none;
     z-index: 1;
     padding: 0.2rem;
+
   }
   .navlinkedin:hover{
     scale: 1.1;
@@ -75,8 +76,11 @@ body{
   .impact{
     background-color: #353543;
     display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
     min-height: 50vh;
-    width: 100%;
+    min-width: 100%;
+    
     
     
     
@@ -181,7 +185,7 @@ body{
      color:white;
           opacity: 0.75;
           font-size: 2rem;
-          width: 24rem;
+          width: fit-content;
           
           }
     .show{
@@ -241,6 +245,10 @@ body{
            margin: 11px ;
            margin-left: -70px;
           }
+
+
+
+          
          
           .projects{
             color: white;
@@ -421,21 +429,84 @@ body{
              .contact li{
               margin-left: -3vw;
              } 
+             @media (max-width:1088px){
+              .services{
+               
+               overflow: hidden;
+              }
+              .build{
+                font-size: 22px;
+              }
+              
+         .nav{
+           overflow: hidden;
+         }
+         .nav span{
+               
+                 
+           margin-left: -4rem;
+           
+          }
+          .nav a{
+       
+           
+           padding-left: -2.2rem;
+           
+         }
+         
+         .second{
+           width: 80%;
+         }
+       
+             }
+             
+            
+            
 
              @media (max-width: 1024px){
               
+                .achievement p{
+                  width: 350px;
+                }
+                
+                
+             .services{
+              padding-left: 14rem;
+              width: 70%;
+              
+             }
+              .service{
+                
+                font-size: 72px;
+              }
+              .logo{
+                padding-left: 14rem;
+              }
+              .build{
+                font-size: 36px;
+                width: 60rem;
+                flex-wrap: wrap;
+                overflow-x: hidden;
+              
+              
           
-          
-              img{
+              
+               
+                
+              }
+              
+              .about img{
               
                 z-index: 1;
                 object-fit: contain;
                max-width: 100%;
+              margin-left: 22rem;
                 
               }
               .nav{
-                width: 150%;
-                flex-wrap: wrap;
+                width: 165%;
+                overflow-x: hidden;
+                
                 
                 
                 
@@ -444,20 +515,28 @@ body{
               
           
               .impact{
-                min-height: 24vh;
-                 width: 150%;
+                min-height: 44vh;
+                 width: 165%;
+                 
                  
                
                    
                }
                .huge{
-                 margin-left: -39.5rem;
+                 margin-left: -139.5rem;
                    margin-top: 8rem; 
                    
                 }  
                 .about{
-                  margin-top: -18rem;
+                  margin-top: -24rem;
                   
+                  
+                  
+                  
+                  }
+                  .experties{
+                    font-size: 22px;
+                    width: 290rem;
                   }
                   .second{
                     margin: -11rem 7rem;
@@ -465,7 +544,7 @@ body{
                     }
                     .container{
                       min-height: 20vh;
-                      width: 150%;
+                      width: 165%;
                       margin-top: 120px;
                                    
                      }
@@ -521,34 +600,49 @@ body{
              }
 
 
-             @media (max-width: 800px){
+             @media (max-width: 930px){
+             
+            .impact{
+              width: 170%;
+            overflow-x:clip ;
+            }
+            .nav{
+              width: 170%;
+            overflow-x:clip ;
+            }
+            .service{
+              font-size: 68px;
+            }
+            .build{
+              font-size: 36px;
+              width: 50rem;
               
-          
+            }
+            .services{
+              width: fit-content;
+            }
+           
+             
           
              
-              .nav a{
-                display: none;
-                  }
-                  .nav span{
-                    padding-left: 65rem;
-                    margin-top: -1.5rem;
-                  }
+              
                               
               
           
              }
-             @media (max-width: 712px){
-              .home{
-                margin-top: -1rem;
-                }
+              @media (max-width: 864px){
+              
                 .nav{
-                  width: 162%;
+                  width: 182%;
+                  overflow-x: clip;
                 }
-                .nav span{
-                  padding-left: 60rem;
-                  }
+                .bottom .digitalmarketing{
+                  line-height: 1.24;
+                   }
+                                              
                   .impact{
-                    width: 162%;
+                    width: 182%;
+                    overflow-x: clip;
                   }
                   .marketing{
                               
@@ -568,6 +662,21 @@ body{
                         .web{
                           width: 38%;
                             }
+                            .build{
+                              width: fit-content;
+                            
+                              
+                            }
+                            
+                            .services{
+                              width: 50rem;
+                            }
+                            .second{
+                            margin-left: 15rem;
+                            }
+                            .container{
+                              width: 181%;
+                            }
                 
                              
           
@@ -575,20 +684,45 @@ body{
              
               
                               
-              
+               
           
              }
 
 
-             @media (max-width: 628px){
-              
+             @media (max-width: 768px){
+              .logo{
+                padding-left: 9rem;
+              }
                 .nav{
-                  width: 175%;
+                  width: 200%;
+                  overflow-x: clip;
                 }
                
                   .impact{
-                    width: 175%;
+                    width: 200%;
+                    overflow-x: clip;
                   }
+                  .services{
+                width: fit-content;
+                padding-left: 9rem;
+                
+                  }
+                  .service{
+                    font-size: 36px;
+                  }
+                  .build{
+                    width: 30rem;
+                    font-size: 40px;
+                    
+                  }
+                  .meta,.google,.linkedin{
+           
+                    
+                    
+                    
+                    margin-left: -80px;
+                   }
+                  
                   }
                   @media (max-width: 568px){
               
@@ -664,76 +798,7 @@ body{
                             width: 193%;
                           }
                                       }
-                                      /* @media (max-width: 468px){
-              
-                                        .nav{
-                                          width: 235%;
-                                          flex-wrap: wrap;
-                                        }
-                                        .home{
-                                          display: none;
-                                        }
-                                       
-                                          .impact{
-                                           width: 235%;
-                                          }
-                                          .container{
-                                            width: 257%;
-                                          }
-                                          .second{
-                                            margin-top: -10rem;
-                                            margin-left: 17rem;
-                                          }
-                                          .digital{
-                       
-                 
-                                            margin-left: 163vw;
-                                            
-                                              
-                                  width: 48%;
-                                  
-                                  
-                                   
-                                            
-          
-          
-          
-                                }
-                                                .web{
-                                                   margin-left: 163vw;
-                                                    
-                                  width: 48%;
-                                  }
-
-                          
-                                  .marketing{
-                                                        
-                                                       width: 40vw; 
-                                                        
-                                                       
-                                                      }
-                                                      .dev{
-                                                        
-                                                        width: 47vw;
-                                                        
-                                                       
-                                                      }
-                                                      .bottom{
-                
-                                                        display: flex;
-                                                        gap: 3vw;
-                                                        padding: 18vw 20vw;
-                                                        flex-wrap: wrap;
-                                                     }
-                                                     .webdevelopment{
-                                                      max-width: 100%;
-                                                      }
-                                                      .bottom .digitalmarketing{
-                                                                    max-width: 100%;
-                                                       }
-                                                       
-                                                                                                                         
-                                         } */
+                                     
  @media (min-width: 1468px){
   .webdevelopment{
     min-height: 20vh;
@@ -857,7 +922,7 @@ body{
 
   }
   
-  @media (max-width: 376px){
+   @media (max-width: 376px){
     .nav{
       width: 265%;
       flex-wrap: wrap;
@@ -872,7 +937,7 @@ body{
        
       }
       
-    }
+    } 
     @media (max-width: 468px){
       *{
         padding: 0;
@@ -1041,7 +1106,7 @@ body{
                       
                   
       }
-      @media (width > 1920px){
+      @media (width > 1468px){
         .about{
           margin-left: 1rem;
         }
@@ -1083,7 +1148,7 @@ body{
         }
         .build{
           font-size: 58px;
-          width: 82rem;
+          
         }
         .nav span{
         
@@ -1101,7 +1166,7 @@ body{
       @media (width> 2200px){
         .build{
           font-size: 80px;
-          width: 200px;
+          
 
         }
         img{
@@ -1116,5 +1181,29 @@ body{
       
         
 
+      }
+      @media (max-width:1335px){
+        
+       
+        .second{
+          margin-top: -1.6rem;
+         
+        }
+        .about{
+          margin-left: -0.5rem;
+
+        }
+        img{
+          margin-left: 16rem;
+        }
+        .services{
+          margin-left: 45rem;
+        }
+        .logo{
+          margin-left: 45rem;
+        }
+       
+        
+        
       }
      
