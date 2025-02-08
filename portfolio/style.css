@@ -1050,7 +1050,7 @@ body{
       
       }
       .second{
-    margin-top: 80rem;
+    margin-top: 10rem;
        
       }
       .hanzalah{
@@ -1073,6 +1073,7 @@ body{
       
      } 
      @media (max-width: 340px){
+
       .hanzalah{
        margin-left: -2.9rem;
         white-space: nowrap;
@@ -1204,7 +1205,7 @@ body{
         
         margin-top: -6rem;
         width: 275%;
-        min-height: 150vh;
+        min-height: 67vh;
       }
       .about img{
         margin-top: 10rem;
