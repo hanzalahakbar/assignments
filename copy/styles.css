@@ -1,0 +1,1508 @@
+body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    width: 100%;
+    background-color: #272932; 
+    
+    
+    
+  }
+  
+  html,body{
+    padding: 0;
+    margin: 0;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      overflow-x: hidden;
+      
+    }
+    .main{
+      width: 100%;
+      height: 100%;
+      position: relative;
+      padding: 0;
+      margin: 0;
+    }
+    .nav{
+      background-color:#353543 ; 
+       width: 100%;
+      height: 80%;
+      display: flex;
+      padding: 0;
+      margin: 0;
+      
+    
+      
+      
+    }
+    .hanzala{
+      color: whitesmoke;
+      margin-top: 1.5vw;
+    }
+    .home{
+      display: flex;
+      list-style: none;
+      justify-content: center;
+      gap: 5vw;
+      padding-left: 40vw;
+      width: calc(100% - 1348px);
+      color:#A3A5B2 ;
+      
+    }
+    .home:hover{
+      scale: 1.1;
+    }
+    .navpart2 span {
+      display: flex;
+  width: calc(100% - 1348px);
+      padding-left: 50vw;
+      padding-top: 1vw;
+      color: #A3A5B2;
+      font-weight: 500;
+    }
+    .navlinkedin{
+      padding-left: 48vw;
+      margin-top: -1.4vw !important;
+      display: flex;
+      color: white;
+      text-decoration: none;
+      z-index: 1;
+    }
+    .navlinkedin:hover{
+      scale: 1.1;
+    }
+    
+    
+    .about{
+      width: calc(100% - 1348px);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      padding-top: 9vw;
+      float: right;
+      
+    }
+    .skills{
+      padding-right: 60.5vw;
+      width: 14vw;
+      color: #A3A5B2;
+      font-size:1vw ;
+      
+    }
+    .im{
+      padding-right: 71vw;
+      line-height: 0vw;
+      color: #A3A5B2;
+      
+  
+    }
+    .hanzalah{
+      padding-right: 49.5vw;
+      z-index: 1;
+      
+      width: 25vw;
+      line-height: 0vw;
+      color: white;
+      
+      font-size: 3vw;
+    }
+    hr{
+      margin-left: -74.5vw;
+      width: calc(100% - 1348px);
+      width: 5vw;
+      border: 1px solid #DEA720;
+      
+    }
+    .huge{
+      background-color: #2D2D39;
+      height: 300px;
+      width: 300px;
+      border-radius: 300px;
+     
+     position: absolute;
+     top: 110px;
+     left: 500px;
+     
+      
+      
+    
+      }
+      img{
+        height: 60vh;
+       width: 60vw;
+        object-fit: contain;
+        margin-top: -26vw;
+        padding:0  20.8vw;
+        z-index: 1;
+      }
+      .services{
+        margin-top: -22vw;
+        padding:0  27vw;
+        line-height: 1vw;
+        z-index: 1;
+        width: 15vw;
+      }
+      .service{
+        line-height: 0vw;
+        color: white;
+      opacity: 0.6;
+        
+      }
+      .build{
+        margin-top: -1vw;
+        color:white;
+      opacity: 0.75;
+      
+      }
+      .show{
+        text-decoration: none;
+        color: #DEA720;
+        
+      }
+      .arrow{
+        position: relative;
+      top: 3px;
+      left: 7px;
+      width: 25px;
+      }
+      .logo{
+        display: flex;
+        color: #DEA720;
+        margin-right:36.5vw ;
+        margin-top: 1.5vw;
+        gap: 1vw;
+      }
+      .second{
+        height: 100%;
+        width: 100%;
+        background-color: #272932;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        
+      }
+      
+       .icon{
+        background-color: #3E404F;
+        height: 15%;
+        width: 40%;
+        position: absolute;
+        left: 30vw;
+        top: -5vw;
+        
+        z-index: 3;
+        
+        
+         
+        
+        
+    
+       }
+       .meta{
+        
+        height: 10vh;
+        width: 20vw;
+        margin-left: -27vw;
+        margin-bottom: -3vw;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+        
+        
+        
+        
+        
+        
+    
+      }
+      .m{
+        
+        height: 7vh;
+        width: 8vw;
+        margin-top: 2vw;
+        margin-left: 3vw;
+        
+        
+        background-color:#343641;
+        aspect-ratio: 3/2;
+         object-fit: contain;
+    
+      } 
+       .google{
+        
+    height: 10vh;
+     width: 20vw;
+     margin-left: -27vw;
+     margin-bottom: -3vw;
+     aspect-ratio: 3/2;
+     object-fit: contain;
+    
+      }
+      .g{
+        margin-top: -3vw;
+        margin-left: 15vw;
+        height: 7vh;
+        width: 8.5vw;
+        
+        background-color:#343641;
+        aspect-ratio: 3/2;
+         object-fit: contain;
+    
+      }
+       .linkedin{
+        height: 5vh;
+     width: 10vw;
+     margin-left: -22vw;
+     margin-bottom: -2vw;
+         text-align: center;
+         aspect-ratio: 3/2;
+         object-fit: contain;
+        
+    
+      }
+      .ld{
+        height: 7vh;
+        width: 8vw;
+        margin-top: -3vw;
+        margin-left: 27vw;
+        
+        
+        background-color:#343641;
+        aspect-ratio: 3/2;
+         object-fit: contain;
+        
+    
+      }
+    .projects{
+      
+  display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      padding: auto;
+  margin: auto;  
+  position: relative;
+  right: -70vw;  
+  top: 5vw;
+  color: white;
+  
+  
+    }
+    .digital{
+      line-height: 0vw;
+      border: 1px solid white;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      width: 25%;
+      text-align: center;
+      
+      
+      
+    }
+    .proj{
+      color: #A3A5B2;
+      padding-right: 6vw;
+    }
+    .web{
+      line-height: 0vw;
+      border: 1px solid white;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      width: 25%;
+      text-align: center;
+    }
+    .secondproj{
+      color: #A3A5B2;
+      padding-right: 7vw;
+    }
+    .projectsarrow{
+      display: flex;
+      flex-direction: column;
+      color: #DEA720;
+    margin: -10vw 21vw;
+    gap: 6vw;
+    }
+    .projects img{
+      height: 10vh;
+      width: 5vw;
+      margin-left: -21.5vw;
+      line-height: 5vw;
+      margin-bottom: -5vw;
+    
+    }
+   .achievement{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    line-height: 1vw;
+    position: relative;
+    left: 15vw;
+    top: -15vw;
+    color: white;
+    
+   }
+   .achievement p{
+    width: 15%;
+    color:#797A83;
+    
+   }
+   .past{
+  display: flex;
+  
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  color: #DEA720;
+   }
+   .extranumbers{
+    display: flex;
+  
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  color: #DEA720;
+   }
+   .completed{
+    position: relative;
+    bottom: -2vw;
+    left: -2.5vw;
+    
+   }
+   .community{
+    position: relative;
+    bottom: -2vw;
+    left: -2.5vw;
+   }
+   .contract{
+    position: relative;
+    bottom: -2vw;
+    left: -2vw;
+   }
+   .experience{
+    position: relative;
+    bottom: -2vw;
+    left: -1vw;
+   }
+   .number4{
+    position: relative;
+   left: 1vw;
+    
+   }
+   .bottom{
+    background-color:#272932;
+    display: flex;
+    gap: 3vw;
+    padding: 0 14vw;
+    position: relative;
+    top: -10vw;
+    
+    
+    
+    
+    
+    
+  
+   }
+   .webdevelopment{
+    background-color: #3C3C4A;
+    padding: 1vw 3vw;
+   max-width : 20%;
+   min-height: 40vh;
+    
+   }
+   .bottom .digitalmarketing{
+    max-width: 20%;
+   min-height : 40vh;
+    background-color: #3C3C4A;
+    text-align: left;
+    padding: 1vw 3vw;
+    
+  
+   }
+   .bottomarrow{
+    padding: 0 6vw;
+    margin-bottom: -2.8vw;
+    color: #FFBA14;
+   }
+   .symbol{
+    
+    color: #FFBA14;
+    opacity: 1;
+    
+   }
+   .bottom h4{
+    color: #E4E6F5;
+   }
+   .bottom .seo{
+    color: #797A83;
+   }
+   .showmore{
+    color: #FFBA14;
+   }
+   .container{
+    background-color: #343643;
+    display: flex;
+    height: 40vh;
+    justify-content: space-between;
+    color: #A3A5B2;
+    
+    
+    
+    
+   }
+   .container h3{
+    color: white;
+   }
+   .facebook {
+    color: #DEA720;
+   }
+   .texla {
+    color: #DEA720;
+   }
+   .instagram {
+    color: #DEA720;
+   }
+  
+   .container ul{
+    list-style: none;
+    line-height: 2.5vw;
+    color: #A3A5B2;
+    
+   }
+   .footernav li{
+    margin-left: -3vw;
+    
+   }
+   .column li{
+    margin-left: -3vw;
+   }
+   .information li{
+    margin-left: -3vw;
+   }
+   .contact li{
+    margin-left: -3vw;
+   }
+    @media (min-width: 1300px) {
+    body{
+      
+      box-sizing: border-box;
+      overflow-x: hidden;
+    background-color: #272932; 
+       padding: 0;
+       margin: 0;
+        }
+    body, html {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden; 
+  }
+  .main{
+        width:100%;
+        height: 100%;
+        position: relative;
+        padding: 0;
+        margin: 0;
+        
+        
+       
+       
+      }
+     
+      .about{
+        
+        
+        padding-top: 10vw;
+        
+         
+      }
+      .achievement{
+        height: 100%;
+        width: 100%;
+       
+        position: relative;
+        left: 15vw;
+        top: 1vw;
+        
+       }
+       .bottom{
+        
+        position: relative;
+        top: 19vw; 
+        
+        
+        
+        
+        
+        
+        
+      
+       }
+       
+       .webdevelopment{
+        height: 100vh;
+        
+        }
+       .bottom .digitalmarketing{
+        height: 100vh;
+        
+        }
+        .container{
+         
+          height: 100vh;
+          position: relative;
+          bottom: -20vw;
+  
+          
+          
+          
+          
+         }
+         .skills{
+          
+          font-size: 0.8vw;
+          
+        }
+        .huge{
+         
+          height: 250px;
+          width: 250px;
+          border-radius: 250px;
+         
+         position: absolute;
+         top: 120px;
+         left: 500px;
+         
+          
+          
+        
+          }
+          img{
+           height:  100vh;
+           width: 100vw;
+            object-fit: contain;
+            margin-top: -18vw;
+            padding:0  2.2vw;
+            z-index: 1;
+          }
+          .services{
+            margin-top: -18vw;
+            padding:0  30vw;
+            
+          }
+          .nav{
+            height: 150vh;
+            
+            padding: 0;
+            
+          }
+          .logo{
+            margin-right:39.5vw ;
+            }
+            .icon{
+          position: absolute;
+              
+          top: -2vw;
+            }
+            .m{
+        
+              height: 11vh;
+             
+              margin-top: 0.5vw;
+             
+            } 
+         .g{
+              margin-top: -2.3vw;
+              
+              height: 12vh;
+             
+            }
+        .ld{
+              height: 12vh;
+             
+              margin-top: -2.3vw;
+             
+              
+          
+            }
+            .meta{
+        
+              height: 15vh;
+              width: 25vw;
+              margin-left: -11vw;
+              margin-bottom: -1.5vw;
+             
+              
+              
+              
+              
+              
+              
+          
+            }
+        .google{
+              
+          height: 25vh;
+           width: 35vw;
+           margin-left: -15.5vw;
+           margin-bottom: -2.6vw;
+          
+            }
+        .linkedin{
+              height: 10vh;
+           width: 15vw;
+           margin-left: -5.8vw;
+           margin-bottom: -1.2vw;
+               
+              
+          
+            }
+            
+                   
+            
+                      
+      
+  } 
+  @media (max-width: 1024px) {
+    body{
+      
+      box-sizing: border-box;
+      overflow-x: hidden;
+    background-color: #272932; 
+       padding: 0;
+       margin: 0;
+        }
+    body, html {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden; 
+  }
+  .hanzala{
+    margin-top: 1.8vw;
+     }
+   .navlinkedin{
+       padding-left: 48vw;
+       margin-top: -1.9vw !important;
+    }
+    .im{
+      padding-right: 70vw;
+      
+      
+  
+    }
+  .main{
+        width:100%;
+        height: 100%;
+        position: relative;
+        padding: 0;
+        margin: 0;
+        
+        
+       
+       
+      }
+     
+      .about{
+        
+        
+        padding-top: 12vw;
+        
+         
+      }
+      .achievement{
+        height: 100%;
+        width: 100%;
+       
+        position: relative;
+        left: 15vw;
+        top: 1vw;
+        
+       }
+       .bottom{
+        
+        position: relative;
+        top: 19vw; 
+        
+        
+        
+        
+        
+        
+        
+      
+       }
+       
+       .webdevelopment{
+        height: 100vh;
+        
+        }
+       .bottom .digitalmarketing{
+        height: 100vh;
+        
+        }
+        .container{
+         
+          height: 100vh;
+          position: relative;
+          bottom: -20vw;
+  
+          
+          
+          
+          
+         }
+         .skills{
+          
+          font-size: 0.8vw;
+          
+        }
+        .huge{
+         
+          height: 250px;
+          width: 250px;
+          border-radius: 250px;
+         
+         position: absolute;
+         top: 120px;
+         left: 400px;
+         
+          
+          
+        
+          }
+          img{
+           height:  100vh;
+           width: 100vw;
+            object-fit: contain;
+            margin-top: -19vw;
+            padding:0  0vw;
+            z-index: 1;
+          }
+          .services{
+            margin-top: -24vw;
+            padding:0  26vw;
+            
+          }
+          .nav{
+            height: 150vh;
+            
+            padding: 0;
+            
+          }
+          .logo{
+            margin-right:33.5vw ;
+            }
+            .icon{
+          position: absolute;
+              
+          top: -2vw;
+            }
+            .m{
+        
+              height: 11vh;
+             
+              margin-top: 0.9vw;
+             
+            } 
+         .g{
+              margin-top: -3vw;
+              
+              height: 12vh;
+             
+            }
+        .ld{
+              height: 12vh;
+             
+              margin-top: -3.3vw;
+             
+              
+          
+            }
+            .meta{
+        
+              height: 15vh;
+              width: 25vw;
+              margin-left: -9vw;
+              margin-bottom: -1.5vw;
+             
+              
+              
+              
+              
+              
+              
+          
+            }
+        .google{
+              
+          height: 25vh;
+           width: 35vw;
+           margin-left: -13.5vw;
+           margin-bottom: -3.3vw;
+          
+            }
+        .linkedin{
+              height: 8vh;
+           width: 13vw;
+           margin-left: -3vw;
+           margin-bottom: -1.2vw;
+               
+              
+          
+            }
+            .bottomarrow{
+              padding: 0 7vw;
+              margin-bottom: -3.6vw;
+              
+             }
+             .digitalmarketing .showmore{
+              margin-top: -1.6vw ;
+              
+             }
+             .digitalmarketing .bottomarrow{
+              padding: 1vw 8vw ;
+              margin: -1.5vw 0vw;
+             }
+          
+              
+             
+            
+            
+                   
+            
+                      
+      
+  } 
+  
+  
+  
+  @media (max-width: 768px) {
+    body{
+      
+      box-sizing: border-box;
+      overflow-x: hidden;
+    background-color: #272932; 
+       padding: 0;
+       margin: 0;
+        }
+    body, html {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden; 
+  }
+  .hanzala{
+    margin-top: 2.5vw;
+     }
+   .navlinkedin{
+       padding-left: 40vw;
+       margin-top: -1.9vw !important;
+    }
+    .im{
+      padding-right: 68vw;
+      position: relative;
+      bottom: -5vw;
+      
+      
+  
+    }
+    hr{
+      position: relative;
+      bottom: -6vw;
+    }
+    .hanzalah{
+      position: relative;
+      bottom: -6.5vw;
+  
+    }
+  .main{
+        width:100%;
+        height: 100%;
+        position: relative;
+        padding: 0;
+        margin: 0;
+        
+        
+       
+       
+      }
+     
+      .about{
+        
+        
+        padding-top: 12vw;
+        
+         
+      }
+      .achievement{
+        height: 100%;
+        width: 100%;
+       
+        position: relative;
+        left: 15vw;
+        top: -1.5vw;
+        
+       }
+       .bottom{
+        
+        position: relative;
+        top: 19vw; 
+        
+        
+        
+        
+        
+        
+        
+      
+       }
+       
+       .webdevelopment{
+        height: 100vh;
+        
+        }
+       .bottom .digitalmarketing{
+        height: 100vh;
+        
+        }
+        .container{
+         
+          height: 100vh;
+          position: relative;
+          bottom: -20vw;
+  
+          
+          
+          
+          
+         }
+         .skills{
+          position: relative;
+          bottom: -7vw;
+          
+          font-size: 1vw;
+          z-index: 1;
+          
+        }
+        .huge{
+         
+          height: 250px;
+          width: 250px;
+          border-radius: 250px;
+         
+         position: absolute;
+         top: 120px;
+         left: 230px;
+         
+          
+          
+        
+          }
+          img{
+           height:  100vh;
+           width: 100vw;
+            object-fit: contain;
+            margin-top: -23vw;
+            padding:0  0vw;
+            z-index: 1;
+            margin-left: -4vw;
+          }
+          .services{
+            margin-top: -30vw;
+            padding:0  18vw;
+            line-height: 1.8vw;
+            
+          }
+          .nav{
+            height: 150vh;
+            
+            padding: 0;
+            
+          }
+          .logo{
+            margin-right:24.5vw ;
+            z-index: 1;
+            }
+            .icon{
+          position: absolute;
+              
+          top: -2vw;
+            }
+            .m{
+        
+              height: 11vh;
+             
+              margin-top: 0.9vw;
+             
+            } 
+         .g{
+              margin-top: -4vw;
+              
+              height: 12vh;
+             
+            }
+        .ld{
+              height: 12vh;
+             
+              margin-top: -4.3vw;
+             
+              
+          
+            }
+            .meta{
+        
+              height: 15vh;
+              width: 25vw;
+              margin-left: -8.5vw;
+              margin-bottom: -2.8vw;
+             
+              
+              
+              
+              
+              
+              
+          
+            }
+        .google{
+              
+          height: 23vh;
+           width: 33vw;
+           margin-left: -12.5vw;
+           margin-bottom: -4.3vw;
+          
+            }
+        .linkedin{
+              height: 8vh;
+           width: 13vw;
+           margin-left: -2.6vw;
+           margin-bottom: -2.2vw;
+               
+              
+          
+            }
+          
+            
+            .bottomarrow{
+              padding: 0 7vw;
+              margin-bottom: -4.6vw;
+              
+             }
+             .digitalmarketing .showmore{
+              margin-top: -2.6vw ;
+              
+             }
+             .digitalmarketing .bottomarrow{
+              padding: 1vw 9.8vw ;
+              margin: -1.5vw 0vw;
+  
+             }
+             .webdevelopment .showmore{
+              margin-top: -2.6vw;
+             }
+             .webdevelopment .bottomarrow{
+              position: relative;
+              top: -4.2vw;
+              right: -3vw;
+  
+             }
+  .navpart2 span{
+    margin-left: -7vw;
+    margin-bottom: -2.5vw;
+  } 
+  .achievement p{
+    line-height: 1.5vw;
+  }   
+  .completed{
+    position: relative;
+    bottom: -2.5vw;
+    left: -4.8vw;
+    font-size: 1.5vw;
+    
+   }
+   .community{
+    position: relative;
+    bottom: -2.5vw;
+    left: -4.5vw;
+    font-size: 1.5vw;
+   }    
+   .contract{
+    position: relative;
+    bottom: -2vw;
+    left: -3.5vw;
+   }
+   .experience{
+    position: relative;
+    bottom: -2vw;
+    left: -2vw;
+   }
+  .contact{
+    margin: 0vw 3vw;
+  }
+  
+  
+  .projects img{
+    height: 10vh;
+    width: 5vw;
+    margin-left: -21.5vw;
+    line-height: 5vw;
+    margin-bottom: -5vw;
+  
+  }
+  .digital h4{
+    position: relative;
+  right: -5vw;
+  }
+  .web h4{
+    position: relative;
+    right: -5vw;
+  }
+  .proj{
+    position: relative;
+    right: -3vw;
+  
+  
+  }
+  .secondproj{
+    position: relative;
+    right: -3vw;
+  }
+  .projectsarrow{
+    display: flex;
+    flex-direction: column;
+    color: #DEA720;
+  margin: -14vw 21vw;
+  gap: 9vw;
+  }
+              
+             
+            
+            
+                   
+            
+                      
+      
+  } 
+  @media (max-width: 480px) {
+  
+    .home li{
+      display:none ;
+    }
+    .navlinkedin{
+      display: none;
+    }
+    .navpart2 span{
+      margin-left: -17vw;
+      margin-bottom: -2.5vw;
+  
+    }
+    .happy{
+      position: relative;
+      top: -1.5vw;
+  
+    }
+  .huge{
+    height: 200px;
+    width: 200px;
+    border-radius: 150px;
+    position: absolute;
+         top: 120px;
+         left: 100px;
+  
+  }
+  img{
+    height:  100vh;
+    width: 100vw;
+     object-fit: contain;
+     margin-top: -36vw;
+    position: relative;
+    left: -22vw;
+     
+     z-index: 1;
+     
+   }
+   .hanzala{
+    margin-top: 2.5vw;
+     }
+   .navlinkedin{
+       padding-left: 40vw;
+       margin-top: -1.9vw !important;
+    }
+    .im{
+      padding-right: 105vw;
+      position: relative;
+      bottom: -15vw;
+      
+      
+  
+    }
+    hr{
+      position: relative;
+      bottom: -16vw;
+      left: -21vw;
+    }
+    .hanzalah{
+      position: relative;
+      bottom: -16.5vw;
+      left: -41vw;
+  
+    }
+  .main{
+        width:100%;
+        height: 100%;
+        position: relative;
+        padding: 0;
+        margin: 0;
+        
+        
+       
+       
+      }
+     
+      .about{
+        
+        width: 20%;
+        padding-top: 12vw;
+        
+        
+         
+      }
+    
+      .achievement{
+        height: 100%;
+        width: 100%;
+       
+        position: relative;
+        left: 15vw;
+        top: -1.5vw;
+        
+       }
+       .bottom{
+        
+        position: relative;
+        top: 19vw; 
+        
+        
+        
+        
+        
+        
+        
+      
+       }
+       
+       .webdevelopment{
+        height: 100vh;
+        
+        }
+       .bottom .digitalmarketing{
+        height: 100vh;
+        
+        }
+        .container{
+         
+          height: 100vh;
+          position: relative;
+          bottom: -20vw;
+  
+          
+          
+          
+          
+         }
+         .skills{
+          position: relative;
+          bottom: -17vw;
+          left: -41vw;
+          
+          font-size: 1.5vw;
+          z-index: 1;
+          
+        }
+       
+          .services{
+            margin-top: -50vw;
+            padding:0  28vw;
+            line-height: 2.5vw;
+            
+          }
+          .nav{
+            height: 150vh;
+            
+            padding: 0;
+             
+            
+          }
+          .logo{
+            margin-right:30.5vw ;
+            z-index: 1;
+            }
+            .icon{
+          position: absolute;
+              
+          top: -2vw;
+            }
+            .m{
+        
+              height: 11vh;
+             
+              margin-top: 0.9vw;
+             
+            } 
+         .g{
+              margin-top: -4vw;
+              
+              height: 12vh;
+             
+            }
+        .ld{
+              height: 12vh;
+             
+              margin-top: -4.3vw;
+             
+              
+          
+            }
+            .meta{
+        
+              height: 15vh;
+              width: 25vw;
+              margin-left: -8.5vw;
+              margin-bottom: -2.8vw;
+             
+              
+              
+              
+              
+              
+              
+          
+            }
+        .google{
+              
+          height: 23vh;
+           width: 33vw;
+           margin-left: -12.5vw;
+           margin-bottom: -4.3vw;
+          
+            }
+        .linkedin{
+              height: 8vh;
+           width: 13vw;
+           margin-left: -2.6vw;
+           margin-bottom: -2.2vw;
+               
+              
+          
+            }
+          
+            
+            .bottomarrow{
+              padding: 0 7vw;
+              margin-bottom: -4.6vw;
+              
+             }
+             .digitalmarketing .showmore{
+              margin-top: -2.6vw ;
+              
+             }
+             .digitalmarketing .bottomarrow{
+              padding: 1vw 9.8vw ;
+              margin: -1.5vw 0vw;
+  
+             }
+             .webdevelopment .showmore{
+              margin-top: -2.6vw;
+             }
+             .webdevelopment .bottomarrow{
+              position: relative;
+              top: -4.2vw;
+              right: -3vw;
+  
+             }
+  
+  .achievement p{
+    line-height: 1.5vw;
+  }   
+  .completed{
+    position: relative;
+    bottom: -2.5vw;
+    left: -4.8vw;
+    font-size: 1.5vw;
+    
+   }
+   .community{
+    position: relative;
+    bottom: -2.5vw;
+    left: -4.5vw;
+    font-size: 1.5vw;
+   }    
+   .contract{
+    position: relative;
+    bottom: -2vw;
+    left: -3.5vw;
+   }
+   .experience{
+    position: relative;
+    bottom: -2vw;
+    left: -2vw;
+   }
+  .contact{
+    margin: 0vw 3vw;
+  }
+  
+  
+  .projects img{
+    height: 10vh;
+    width: 5vw;
+    margin-left: -21.5vw;
+    line-height: 5vw;
+    margin-bottom: -5vw;
+  
+  }
+  .digital h4{
+    position: relative;
+  right: -5vw;
+  }
+  .web h4{
+    position: relative;
+    right: -5vw;
+  }
+  .proj{
+    position: relative;
+    right: -3vw;
+  
+  
+  }
+  .secondproj{
+    position: relative;
+    right: -3vw;
+  }
+  .projectsarrow{
+    display: flex;
+    flex-direction: column;
+    color: #DEA720;
+  margin: -14vw 21vw;
+  gap: 9vw;
+  }
+  } 
+  
+  
+  
+   
+  
+  
+   
+  
+  
+    
+  
+  
+  
+  
+  
+   
+  
+  
+  

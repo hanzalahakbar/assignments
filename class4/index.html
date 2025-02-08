@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Adams Portfolio</title>
+    <style>
+        :root {
+            --primary-color: #232946;
+            --secondary-color: #121629;
+            --accent-color: #f7c846;
+            --text-color: #ffffff;
+            --light-text-color: #a1a1a1;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: var(--secondary-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 20px;
+            background-color: var(--primary-color);
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.8em;
+        }
+
+        header nav {
+            margin-top: 10px;
+        }
+
+        header nav a {
+            color: var(--text-color);
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        .hero h2 {
+            margin: 20px 0 10px;
+            font-size: 2.2em;
+        }
+
+        .hero p {
+            max-width: 600px;
+            margin: 0 auto;
+            color: var(--light-text-color);
+        }
+
+        .services {
+            text-align: center;
+            padding: 30px;
+            background-color: var(--primary-color);
+        }
+
+        .services h3 {
+            margin-bottom: 20px;
+        }
+
+        .services img {
+            max-width: 50px;
+            margin: 10px;
+        }
+
+        .section {
+            padding: 30px;
+        }
+
+        .section h3 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .section .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: var(--primary-color);
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            width: 250px;
+        }
+
+        .card img {
+            max-width: 100%;
+            border-radius: 4px;
+        }
+
+        .card h4 {
+            margin-top: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: var(--primary-color);
+        }
+
+        footer p {
+            margin: 0;
+            color: var(--light-text-color);
+        }
+
+        @media (max-width: 768px) {
+            .section .cards {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Adams</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <img src="profile-placeholder.jpg" alt="James Adams">
+        <h2>James Adams</h2>
+        <p>A freelancer who provides services for digital programming and design content needs, for all businesses with more than 10 years of experience.</p>
+    </section>
+
+    <section class="services">
+        <h3>Services</h3>
+        <p>Let's build quality products in programming and design with my services</p>
+        <div>
+            <img src="meta-logo.png" alt="Meta">
+            <img src="google-logo.png" alt="Google">
+            <img src="linkedin-logo.png" alt="LinkedIn">
+            <img src="slack-logo.png" alt="Slack">
+        </div>
+    </section>
+
+    <section class="section" id="portfolio">
+        <h3>What Can I Do For Your Needs</h3>
+        <div class="cards">
+            <div class="card">
+                <img src="uiux-placeholder.jpg" alt="UI/UX Design">
+                <h4>UI/UX Design</h4>
+                <p>17 Projects</p>
+            </div>
+            <div class="card">
+                <img src="frontend-placeholder.jpg" alt="Frontend Development">
+                <h4>Front-End Development</h4>
+                <p>20 Projects</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 James Adams. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

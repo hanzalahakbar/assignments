@@ -1,0 +1,554 @@
+body{
+  background-color:#2D2D39;
+  
+  
+}
+
+  
+  .huge{
+    background-color: #2D2D39;
+    height: 280px;
+    width: 280px;
+    border-radius: 280px;
+    position: relative;
+    top: 100px;
+    left: 500px;
+    
+    opacity: 0.9;
+    }
+  
+
+ img{
+  height: 300px; 
+  opacity: 1;
+   width: 300px;
+ 
+  
+   
+   position: absolute;
+   
+  top: 95px;
+  left: 490px;
+  z-index: 2;
+  object-fit: contain;
+  
+  
+  
+  
+  }
+  
+  .about{
+    background-color: #343643;
+    height: 405px;
+    width: 2200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: -290px;
+    text-align: justify;
+    
+    
+    
+  }
+  
+  .happy{
+    display: flex;
+    justify-content: center;
+    
+    
+  z-index: 1;
+  
+  }
+  .hanzala{
+    color: #FBFEFC;
+    
+    
+    font-size: 18px;
+  
+  }
+ 
+  ul{
+    color: #A6A9B0;
+    list-style: none;
+    
+    
+    text-decoration: none;
+    z-index: 1;
+  
+    
+    
+    
+    
+  }
+  ul:hover{
+    scale: 1.1;
+  }
+  li:active{
+    color: white;
+    
+  }
+  
+ 
+  .material-symbols-outlined{
+    color: #676973;
+  
+    
+  }
+  .navlinkedin{
+    color:whitesmoke ;
+    
+    text-decoration:none ;
+    z-index: 1;
+  }
+  .navlinkedin:hover{
+    scale: 2;
+    }
+    
+  
+  .im{
+    color: #9999A7;
+    
+    font-family: sans-serif;
+    font-weight: lighter;
+  
+    
+  }
+  
+  .hanzalah{
+    color:#FCFEFA;
+    
+    font-size: 45px;
+    z-index: 1;
+   
+  }
+  .skills{
+    
+    font-size: 8.5px;
+    color: #B1B1BD;
+    
+  }
+  
+  
+    
+  }
+  
+  .service{
+    
+    color: white;
+    opacity: 0.6;
+    
+  }
+  .build{
+    
+    color:white;
+    opacity: 0.75;
+    
+    
+  }
+  .second{
+    
+    
+    height: 400px;
+    width: 550px;
+    display: flex;
+    align-content: center;
+    
+    flex-wrap: wrap;
+    padding-top: 40px;
+
+  }
+  .icon{
+    background-color: #3E404F;
+    height: 90px;
+    width: 600px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    z-index: 3;
+    
+    
+
+  }
+  .meta{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    height: 90px;
+    width: 150px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    
+    
+    
+    
+    
+    
+
+  }
+  .m{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+flex-wrap: wrap;
+    height: 46px;
+    width: 118px;
+    
+    
+    background-color:#343641;
+    aspect-ratio: 3/2;
+     object-fit: contain;
+
+  }
+  .google{
+    position: absolute;
+top: -20px;
+left: -14px;
+height: 90px;
+ width: 150px;
+ aspect-ratio: 3/2;
+ object-fit: contain;
+
+  }
+  .g{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 48px;
+    width: 120px;
+    
+    background-color:#343641;
+    aspect-ratio: 3/2;
+     object-fit: contain;
+
+  }
+  .linkedin{
+    position: absolute;
+    top: -1px;
+    left: 5px;
+    height: 50px;
+     width: 110px;
+     text-align: center;
+     aspect-ratio: 3/2;
+     object-fit: contain;
+    
+
+  }
+  .ld{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 48px;
+    width: 120px;
+    
+    background-color:#343641;
+    aspect-ratio: 3/2;
+     object-fit: contain;
+    
+
+  }
+  .logo{
+    position: absolute;
+    top: 350px;
+    left: 355px;
+  }
+  .show{
+    text-decoration: none;
+    color: #FDBA18;
+    
+    opacity: 0.7;
+    white-space: nowrap;
+    
+  }
+  .arrow{
+    color:#FDBA18;
+    
+
+    
+
+  }
+  .fb{
+    color:#EFAF20;
+    
+    
+    object-fit: contain;
+    aspect-ratio: 3/2;
+    opacity: 0.7;
+    
+  }
+  .x{
+    color:#EFAF20;
+    
+  
+    object-fit: contain;
+    aspect-ratio: 3/2;
+    opacity: 0.7;
+
+  }
+  .insta{
+    color:#EFAF20;
+    
+    
+    object-fit: contain;
+    aspect-ratio: 3/2;
+    opacity: 0.7;
+
+  }
+  .projects{
+    background-color:#2D2D39;
+    
+    
+    
+    
+  }
+  
+  .digital{
+   
+   height: 100px;
+   width: 305px;
+   position: absolute;
+top: 500px; 
+left: 770px;
+border-bottom: 1px solid #CCCCD6;   
+  }
+  .marketing{
+    height: 70px;
+    width: 70px;
+    object-fit: contain;
+    position: absolute;
+    top: 20px;
+    left: 1px;
+    aspect-ratio: 3/2;
+    
+  }
+  .web{
+    height: 100px;
+   width: 305px;
+   position: absolute;
+top: 635px; 
+left: 770px;
+border-bottom: 1px solid #B1B1BD; 
+
+  }
+  .dev{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    position: absolute;
+    top: 10px;
+    left: 1px;
+    aspect-ratio: 3/2;
+    
+
+  }
+  
+  h4{
+    color: #FBFEFC;
+    position: absolute;
+    left: 100px;
+
+  }
+  .proj{
+    color: #CCCCD6;
+    position: absolute;
+    left: 100px;
+    top: 30px;
+font-size: 12px;
+
+  }
+  .secondarrow{
+    color:#FDBA18 ;
+  position: absolute;
+  top: 545px;
+  left: 1080px;
+  
+  
+  
+  }
+  .thirdarrow{
+    color:#FDBA18 ;
+  position: absolute;
+  top: 690px;
+  left: 1080px;
+
+  }
+  .heading{
+    color: #FBFEFC;
+    position: relative;
+    top: -200px;
+    left: 870px;
+    
+  }
+  .secondproj{
+    position: relative;
+    top: -250px;
+    left: 870px;
+    font-size: 12px;
+     color: #CCCCD6;;
+
+  }
+  .needs{
+    color: #EFF0F2;
+    position: relative;
+    top: -450px;
+    left: 300px;
+    width: 290px;
+    word-spacing: 5px;
+    font-weight: 200px;
+    text-align: justify;
+    
+  }
+  .requirement{
+    color: #EFF0F2;
+    position: relative;
+    top: -470px;
+    left: 305px;
+    width: 290px;
+    word-spacing: 5px;
+    font-weight: 200px;
+
+  }
+  p{
+    color: #62636C;
+    position: relative;
+    top: -510px;
+    left: 310px;
+    width: 240px;
+  }
+  .achievement{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: -50px;
+    position: absolute;
+    left: 160px;
+  }
+  .number{
+    color: #F6B21F;
+    position: relative;
+    top: -550px;
+    left: 160px;
+    font-size: 24px;
+  }
+  .completed{
+    position: relative;
+    top: -505px;
+    left:110px;
+    font-size: 12px;
+
+  }
+  .number2{
+    color: #F6B21F;
+    position: relative;
+    top: -550px;
+    left:16px;
+    font-size: 24px;
+
+  }
+  .community{
+    position: relative;
+    top: -505px;
+    left:-32px;
+    font-size: 12px;
+
+  }
+  .number3{
+    color: #F6B21F;
+    position: relative;
+    top: -490px;
+    left:-418px;
+    font-size: 24px;
+  }
+  .contract{
+    position: relative;
+    top: -445px;
+    left:-458px;
+    font-size: 12px;
+
+  }
+  .number4{
+    color: #F6B21F;
+    position: relative;
+    top: -490px;
+    left:-546px;
+    font-size: 24px;
+
+  }
+  .experience{
+    position: relative;
+    top: -445px;
+    left:-585px;
+    font-size: 12px;
+
+   }
+  .bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    background-color:#676973;
+    padding-top: 50px;
+    width: 1400px;
+    text-align: justify;
+
+    
+  }
+  .webdevelopment{
+    background-color: #3C3C4A;
+    height: 320px;
+    width: 280px;
+    position: relative;
+    top: -340px;
+    left: -120px;
+
+  }
+  .digitalmarketing{
+    background-color: #3C3C4A;
+    height: 320px;
+    width: 280px;
+    position: relative;
+    top: -340px;
+    left: -60px;
+
+
+  }
+  .symbol{
+    background-color: #F6B21F;
+    color: #2D2D39;
+    border-radius: 200px;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+  }
+  h5{
+    color: #CCCCD6;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  font-size: 22px;
+  }
+  .seo{
+    position: relative;
+    top: 0px;
+    left:30px ;
+  }
+  .bottomarrow{
+    color:#F6B21F ;
+    position: relative;
+    top: 48px;
+    left: 120px;
+  }
+  .showmore{
+    color:#F6B21F ;
+    position: relative;
+    top: 10px;
+    left: 38px;
+
+  } 
