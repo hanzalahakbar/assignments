@@ -724,7 +724,7 @@ body{
                    }
                   
                   }
-                  @media (max-width: 568px){
+                  /* @media (max-width: 568px){
               
                     .nav{
                       width: 185%;
@@ -798,7 +798,122 @@ body{
                             width: 193%;
                           }
                                       }
-                                     
+                                      */
+@media (max-width: 678px){
+
+.about img{
+  margin-left: 18rem;
+                  
+ }
+ .nav a,.nav span{
+  width: fit-content;
+ }
+  
+.build{
+  width: fit-content;
+  font-size: 28px;
+}
+.container{
+  width: 200%;
+}
+.nav{
+  width: 200%;
+  overflow-x: clip;
+}
+
+  .impact{
+    width: 200%;
+    overflow-x: clip;
+  }
+
+
+ }   
+ @media (max-width: 570px){
+  .about img{
+    margin-left: 10rem;
+                    
+   }
+  .nav span{
+        
+          
+  padding-left: 20rem;
+    
+   }
+   
+   .im{
+    font-size: 50px;
+   }
+   .hanzalah{
+    font-size: 50px;
+   }
+   .nav a{
+
+    
+    display: none;
+    
+  }
+ .nav li{
+    display: none;
+  }
+  .nav{
+    flex-wrap: wrap;
+  }
+  .marketing{
+                              
+    width: 35vw; 
+     
+    
+   }
+   .dev{
+     
+     width: 36vw;
+     
+    
+   }
+   .digital{
+       width: 68%;
+}
+        .web{
+          width: 68%;
+            }
+           .achievement{
+            margin-top: -40rem;
+           }
+           .bottom{
+            margin-left: 2.9rem;
+           }
+           .build{
+            font-size: 20px;
+           }
+           .services{
+            padding-left: 1rem;
+           }
+           .logo{
+            padding-left: 1rem;
+           }
+           .second{
+           margin-left: 4rem;
+            width: 180%;
+           }
+           
+           .meta,.google,.linkedin{
+           
+            max-width: 50vw; 
+            
+            
+            margin-left: -25px;
+           }
+           .m,.g,.ld{
+
+          
+            width: 30%;
+            }
+            .skills{
+               width:  20rem;
+            font-size: 20px;
+            }
+           
+ }
  @media (min-width: 1468px){
   .webdevelopment{
     min-height: 20vh;
@@ -922,22 +1037,143 @@ body{
 
   }
   
-   @media (max-width: 376px){
+    @media (max-width: 406px){
+      
     .nav{
       width: 265%;
-      flex-wrap: wrap;
+      
     }
     
    
       .impact{
        width: 265%;
+      
       }
       .second{
-        margin-top: -2rem;
+    margin-top: 80rem;
        
       }
+      .hanzalah{
+        transform: scale(0.7);
+        margin-left: -3.8rem;
+        
+        
+      }
+      .skills{
+       transform: scale(0.7);
+       margin-left: -4rem;
       
-    } 
+       
+       
+      
+      }
+     
+     
+      
+      
+     } 
+     @media (max-width: 340px){
+      .hanzalah{
+       margin-left: -2.9rem;
+        white-space: nowrap;
+      }
+      .meta,.google,.linkedin{
+           
+        
+           
+          min-width: 45vw; 
+          transform: translateX(-1.3rem);
+          
+         
+
+          
+        
+        }
+        .build{
+          transform: scale(0.7);
+          margin-left: -5.5rem;
+          
+          
+        }
+        .achievement h1{
+          
+          transform: scale(0.7);
+          margin-left: -5rem;
+        }
+        .achievement .experties{
+          transform: scale(0.7);
+          margin-left: -4rem;
+        }
+        .past{
+          display: flex;
+          flex-direction: column;
+          line-height: 0.8;
+          
+         }
+         .extranumbers{
+          display: flex;
+          flex-direction: column;
+          line-height: 0.;
+         }
+         .digital{
+         transform: translate(0rem,20rem)
+          }
+         .web{
+         margin-left: 5vw;
+         
+                     margin-top: 20rem;
+                     width:100%;
+                     height: 0vh;
+                     
+          }
+           .marketing{
+           
+            
+            position: relative;
+            left: 4rem;
+            
+              
+                  
+                   }
+          .dev{
+            transform: scale(1.5);
+            position: relative;
+            left: 4rem;
+                    
+                    
+                   }  
+                                
+                          
+         
+      
+     }
+
+     @media (max-width: 294px){
+      .build{
+                transform: scale(0.7);
+                margin-left: -5.5rem;
+                
+                
+              }
+              .services{
+                margin-top: -18rem;
+              }
+              .hanzalah{
+                transform: scale(0.5);
+                margin-left: -4.8rem;
+                
+                
+              }
+              .skills{
+               transform: scale(0.5);
+               margin-left: -7rem;
+              
+               
+               
+              
+              }
+      }
+     
     @media (max-width: 468px){
       *{
         padding: 0;
@@ -952,34 +1188,35 @@ body{
         overflow-x: hidden;
       }
       .nav{
-        width: 240%;
+        width: 140%;
         }
         .home{
           display: none;
         }
         .about{
-          width: 64%;
+          width: 34%;
         }
        
        
             
       .impact{
-        margin-left: -21.6rem;
+        margin-left: 0.1rem;
         
-        margin-top: -10rem;
+        margin-top: -6rem;
         width: 275%;
-        min-height: 100vh;
+        min-height: 150vh;
       }
-      img{
+      .about img{
         margin-top: 10rem;
        
-        margin-left: -5rem;
+        transform: translate(-12rem,10rem);
         
         
       }
       .services{
-     margin-top: -30rem;
-        margin-left: -0.3rem;
+     
+     transform: translate(-46rem,5rem);
+     width: 90rem;
         } 
         .logo{
           margin-left: -0.3rem;
@@ -987,7 +1224,7 @@ body{
         }
         .skills{
           font-size: 20px;
-         width:  22rem;
+         width:  28rem;
         }
         .huge{
           margin-left: 30.5rem;
@@ -1000,7 +1237,8 @@ body{
              }
              .meta,.google,.linkedin{
            
-              max-width: 40vw; 
+              max-width: 30vw; 
+              margin-left: -3rem;
              
     
               }
@@ -1008,7 +1246,7 @@ body{
                 margin-top: -20rem;
                 width: 150%;
                 flex-wrap: wrap;
-                min-height: 35vh;
+                min-height: 75vh;
                  }
                  .information li{
                   margin-left: -108.3vw;
@@ -1023,7 +1261,7 @@ body{
                   line-height: 5.5vw;
                               }
                              .bottom{
-                              margin: 110vw 0;
+                              margin: 190vw 0;
                              }
                               .webdevelopment{
                                 
@@ -1043,10 +1281,10 @@ body{
                                               width: 22rem;
                                   }
                                   .hanzalah{
-                                    font-size: 46px;
+                                    font-size: 56px;
                                   }
                                   .im{
-                                    font-size: 46px;
+                                    font-size: 56px;
                                   }
                                  
                                   .build{
@@ -1069,34 +1307,35 @@ body{
                                      
                                        }
                                        .achievement{
-                                        margin-top: -60rem;
+                                        margin-top: -70rem;
                                        }
                                        .achievement p{
                                         width: 350px;
                                       }
                                       .digital{
-                                        margin: 60rem 5rem;
+                                        margin: 70rem 5rem;
                                             
                                         margin-left: 5vw;
-                                        width: 80%;
+                                        width: 90%;
                                         }
                                        .web{
                                        margin-left: 5vw;
-                                                   margin-top: -50rem;
-                                                   width: 80%;
+                                       
+                                                   margin-top: -60rem;
+                                                   width: 90%;
                                                    
                                         }
                                          .marketing{
                                          
-                                          transform: scale(2.5);
-                                          margin:-12rem 21.4rem ;
+                                          transform: scale(1.5);
+                                          margin:-10.5rem 19.4rem ;
                                           
                                             
                                                 
                                                  }
                                         .dev{
-                                          transform: scale(2.5);
-                                          margin:-12rem 21.4rem ;
+                                          transform: scale(1.5);
+                                          margin:-10.5rem 19.4rem ;
                                                   
                                                   
                                                  }  
@@ -1186,7 +1425,7 @@ body{
         
        
         .second{
-          margin-top: -1.6rem;
+          margin-top: 0rem;
          
         }
         .about{
