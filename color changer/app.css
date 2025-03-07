@@ -1,0 +1,23 @@
+#grey{
+    background-color: grey;
+    width: 55px;
+    height: 55px;
+}
+#blue{
+    background-color: blue;
+    width: 55px;
+    height: 55px;
+}
+#green{
+   background-color: green;
+   width: 55px;
+   height: 55px;
+}
+#purple{
+    background-color: purple;
+    width: 55px;
+    height: 55px;
+}
+body{
+    background-color:white;
+}
